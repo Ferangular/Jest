@@ -598,8 +598,46 @@
       "flag": "assets/imagenes/flags/fr.png",
       "code": "fr_FR"
     }
-  ]
+  ],
+  "model":  [
+  {
+    "label": "Home",
+    "items": [
+      {
+        "label": "Dashboard",
+        "icon": "pi pi-fw pi-home",
+        "routerLink": ["/"] }
+    ]
+  },
+  {
+    "label": "Firestore",
+    "icon": "pi pi-fw pi-briefcase",
+    "items": [
+      {
+        "label": "Ingresos y Egresos",
+        "icon": "pi pi-fw pi-pencil",
+        "items": [
+          {
+            "label": "Detalles",
+            "icon": "pi pi-fw pi-times-circle",
+            "routerLink": ["/dashboard/redux/detail"]
+          },
+          {
+            "label": "Estadistica",
+            "icon": "pi pi-fw pi-lock",
+            "routerLink": ["/dashboard/redux/charts"]
+          },
+          {
+            "label": "Ingreso y egreso",
+            "icon": "pi pi-fw pi-lock",
+            "routerLink": ["/dashboard/redux/ingreso-egreso"]
+          }
+        ]
+      }
 
+    ]
+  }
+]
 
 }
 

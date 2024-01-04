@@ -1,3 +1,5 @@
+import { Model } from '../interfaces/app.settings.interface';
+
 export class AppSettings {
   get sideBarMenuRxjs(): iSidebarMenuRxjs[] {
     return this._sideBarMenuRxjs;
@@ -7,12 +9,22 @@ export class AppSettings {
     this._sideBarMenuRxjs = value;
   }
 
+
+  get model(): any[] {
+    return this._model;
+  }
+
+  set model(value: any[]) {
+    this._model = value;
+  }
+
   private _productionConnection: iConnection;
   private _clientSettings: iConnection;
   private _sideBarMenu: iSideBarMenu[];
   private _sideBarMenuRxjs: iSidebarMenuRxjs[];
   private _deviceZones: idevicesZones[];
   private _flags: any[];
+  private _model: Model[];
 
   constructor(
     productionConnection: iConnection,
@@ -21,6 +33,7 @@ export class AppSettings {
     sideBarMenuRxjs: iSidebarMenuRxjs[],
     deviceZones: idevicesZones[],
     flags: any[],
+    model: Model[]
   ) {
     this._productionConnection = productionConnection;
     this._clientSettings = clientSettings;
@@ -28,6 +41,7 @@ export class AppSettings {
     this._sideBarMenuRxjs = sideBarMenuRxjs;
     this._deviceZones = deviceZones;
     this._flags = flags;
+    this._model = model;
   }
 
   get productionConnection(): iConnection {

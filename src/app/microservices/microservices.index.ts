@@ -10,17 +10,7 @@ export const MICROSERVICES_ROUTES: Routes = [
     children: [
       { path: '', component: HomeComponent, title: 'Banco de Trabajo' },
       { path: 'home', component: HomeComponent, title: 'Banco de Trabajo' },
-      {
-        path: 'redux',
-        title: 'Ingreso-egreso',
-        loadChildren: () => import('./main-redux/main-redux.index').then((m) => m.MAIN_REDUX_ROUTES),
-      },
-
-      {
-        path: 'project',
-        title: 'Proyectos',
-        loadChildren: () => import('./project/project.index').then((m) => m.PROJECT_ROUTES),
-      },
+      { path: 'project', title: 'Proyectos', loadChildren: () => import('./project/project.index').then((m) => m.PROJECT_ROUTES) },
     ],
   },
 ];
