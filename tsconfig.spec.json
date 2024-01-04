@@ -1,0 +1,16 @@
+/* To learn more about this file see: https://angular.io/config/tsconfig. */
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./out-tsc/spec",
+    "types": [
+      "jest"
+    ],
+    "esModuleInterop": true, // 2 Habilitar la opción es ModuleInterop del compilador TypeScript, de lo contrario. Jest mostrará un montón de advertencias en la consola.
+    "emitDecoratorMetadata": true // 3 Habilitar la opción emitDecoratorMetadata del compilador TypeScript, de lo contrario la inyección de dependencia de Angular no funcionará con Jest.
+  },
+  "include": [
+    "src/**/*.spec.ts",
+    "src/**/*.d.ts"
+  ]
+}

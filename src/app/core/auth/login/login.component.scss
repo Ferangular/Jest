@@ -1,0 +1,21 @@
+
+
+.small-text {
+  font-size: 14px;
+  display: block;
+  text-align: center;
+
+  &.providers {
+    margin-bottom: 30px;
+  }
+
+  &.log-in-redirect {
+    margin-top: 30px;
+
+    a {
+      color: var(--green);
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  }
+}

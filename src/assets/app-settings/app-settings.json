@@ -1,0 +1,605 @@
+{
+  "firebaseConfig ": {
+    "apiKey": "AIzaSyASkXFUdlI8tVbMnLiGVAhgOEnLlo18NQA",
+    "authDomain": "redux-9854e.firebaseapp.com",
+    "projectId": "redux-9854e",
+    "storageBucket": "redux-9854e.appspot.com",
+    "messagingSenderId": "1090710654063",
+    "appId": "1:1090710654063:web:d6254573f8cbd2ea42519a",
+    "measurementId": "G-0LCWHDK0QP"
+  },
+  "localConnection": {
+    "frontEndUrl": "",
+    "serverUrl": "api/",
+    "signalRHub": ""
+  },
+  "productionConnection": {
+    "frontEndUrl": "",
+    "serverUrl": "api/",
+    "signalRHub": ""
+  },
+  "clientSettings": { },
+  "firebaseConnection": { },
+  "deviceZones": [
+    {
+      "nameZone": "Parque-1",
+      "labelTranslate": "sidebar.menu.Devices-Park1",
+      "devices": ["PA02-R211"]
+    },
+    {
+      "nameZone": "Parque-2",
+      "labelTranslate": "sidebar.menu.Devices-Park2",
+      "devices": ["PA02-R211", "PA02-R212"]
+    }
+  ],
+  "sideBarMenu": [
+    {
+      "id": 0,
+      "title": "Redux",
+      "translatetitle": "sidebar.menu.redux",
+      "subMenu": [
+        {
+          "id": 0,
+          "icon": " fas fa-edit",
+
+          "subTitle": "Angular NGRX",
+          "routerLink": "redux/redux-ngrx"
+        },
+        {
+          "id": 1,
+          "icon": " fas fa-edit",
+          "subTitle": "Component Store",
+          "routerLink": "redux/component-store"
+        },
+        {
+          "id": 2,
+          "icon": " fas fa-edit",
+          "subTitle": "Angular NGRX",
+          "routerLink": "redux/redux-ngrx"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "CONSUMO API's",
+      "translatetitle": "sidebar.menu.api",
+      "subMenu": [
+        {
+          "id": 0,
+          "icon": " fas fa-edit",
+          "subTitle": "Countries",
+          "routerLink": "apis/countries"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Funciones especiales",
+      "translatetitle": "sidebar.menu.specials",
+      "subMenu": [
+        {
+          "id": 1,
+          "icon": " fas fa-edit",
+          "subTitle": "Nuevos proyectos",
+          "routerLink": "v2/excel"
+        },
+        {
+          "id": 2,
+          "icon": " fas fa-edit",
+          "subTitle": "Lector OCR",
+          "routerLink": "v2/ocr"
+        },
+        {
+          "id": 3,
+          "icon": " fas fa-edit",
+          "subTitle": "Cámara",
+          "routerLink": "v2/camara"
+        },
+        {
+          "id": 4,
+          "icon": " fas fa-edit",
+          "subTitle": "Código QR",
+          "routerLink": "v2/qr"
+        },
+        {
+          "id": 5,
+          "icon": " fas fa-edit",
+          "subTitle": "Excel to Json file",
+          "routerLink": "v2/excelToJson"
+        },
+        {
+          "id": 6,
+          "icon": " fas fa-edit",
+          "subTitle": "To JSON file",
+          "routerLink": "v2/json"
+        },
+        {
+          "id": 7,
+          "icon": " fas fa-edit",
+          "subTitle": "Directorios",
+          "routerLink": "v2/directorios"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Formularios Reactivos",
+      "translatetitle": "sidebar.menu.reactiveForm",
+      "subMenu": [
+        {
+          "id": 0,
+          "icon": " fas fa-edit",
+          "subTitle": "Formularios reactivos",
+          "routerLink": "v3/formularios"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Industrial",
+      "translatetitle": "sidebar.menu.factory",
+      "subMenu": [
+        {
+          "id": 0,
+          "icon": " fas fa-edit",
+          "subTitle": "Resumen dispositivo",
+          "routerLink": "v4/reactores"
+        },
+        {
+          "id": 1,
+          "icon": " fas fa-edit",
+          "subTitle": "Resumen reactores",
+          "routerLink": "v4/dispositivos"
+        },
+        {
+          "id": 2,
+          "icon": " fas fa-edit",
+          "subTitle": "Zona reactor",
+          "routerLink": "v4/device-zone"
+        },
+        {
+          "id": 3,
+          "icon": " fas fa-edit",
+          "subTitle": "Signalr",
+          "routerLink": "v4/signalr"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "icon": "fas fa-hammer",
+      "title": "Configuración",
+      "translatetitle": "sidebar.menu.settings",
+      "subMenu": [
+        {
+          "id": 0,
+          "icon": "fas fa-hammer",
+          "subTitle": "Panel configuración",
+          "routerLink": "v2"
+        }
+      ]
+    }
+  ],
+  "sideBarMenuRxjs": [
+    {
+      "id": 0,
+      "title": "Functions",
+      "translatetitle": "sidebar.menu.functions",
+      "expanded": true,
+      "subMenu": [
+        {
+          "id": 0,
+          "icon": " fas fa-edit",
+          "subTitle": "AnimationFrames",
+          "routerLink": "rxjs/animationFrames"
+        },
+        {
+          "id": 1,
+          "icon": " fas fa-edit",
+          "subTitle": "Audit",
+          "routerLink": "rxjs/audit"
+        },
+        {
+          "id": 2,
+          "icon": " fas fa-edit",
+          "subTitle": "CombineLatest",
+          "routerLink": "rxjs/combineLatest"
+        },
+        {
+          "id": 3,
+          "icon": " fas fa-edit",
+          "subTitle": "CombineLatestAll",
+          "routerLink": "rxjs/combineLatestAll"
+        },
+        {
+          "id": 4,
+          "icon": " fas fa-edit",
+          "subTitle": "CombineLatestWith",
+          "routerLink": "rxjs/combineLatestWith"
+        },
+        {
+          "id": 5,
+          "icon": " fas fa-edit",
+          "subTitle": "Concat",
+          "routerLink": "rxjs/concat"
+        },
+        {
+          "id": 6,
+          "icon": " fas fa-edit",
+          "subTitle": "ConcatAll",
+          "routerLink": "rxjs/concatAll"
+        },
+        {
+          "id": 7,
+          "icon": " fas fa-edit",
+          "subTitle": "ConcatMap",
+          "routerLink": "rxjs/concatMap"
+        },
+        {
+          "id": 8,
+          "icon": " fas fa-edit",
+          "subTitle": "concatWith",
+          "routerLink": "rxjs/concatWith"
+        },
+        {
+          "id": 9,
+          "icon": " fas fa-edit",
+          "subTitle": "Count",
+          "routerLink": "rxjs/count"
+        },
+        {
+          "id": 10,
+          "icon": " fas fa-edit",
+          "subTitle": "debounce",
+          "routerLink": "rxjs/debounce"
+        },
+        {
+          "id": 11,
+          "icon": " fas fa-edit",
+          "subTitle": "debounceTime",
+          "routerLink": "rxjs/debounceTime"
+        },
+        {
+          "id": 12,
+          "icon": " fas fa-edit",
+          "subTitle": "defaultEmpty",
+          "routerLink": "rxjs/defaultEmpty"
+        },
+        {
+          "id": 13,
+          "icon": " fas fa-edit",
+          "subTitle": "defer",
+          "routerLink": "rxjs/defer"
+        },
+        {
+          "id": 14,
+          "icon": " fas fa-edit",
+          "subTitle": "delay",
+          "routerLink": "rxjs/delay"
+        },
+        {
+          "id": 15,
+          "icon": " fas fa-edit",
+          "subTitle": "delayWhen",
+          "routerLink": "rxjs/delayWhen"
+        },
+        {
+          "id": 17,
+          "icon": " fas fa-edit",
+          "subTitle": "distinct",
+          "routerLink": "rxjs/distinct"
+        },
+
+        {
+          "id": 20,
+          "icon": " fas fa-edit",
+          "subTitle": "elementAt",
+          "routerLink": "rxjs/elementAt"
+        },
+        {
+          "id": 21,
+          "icon": " fas fa-edit",
+          "subTitle": "endWith",
+          "routerLink": "rxjs/endWith"
+        },
+        {
+          "id": 22,
+          "icon": " fas fa-edit",
+          "subTitle": "every",
+          "routerLink": "rxjs/every"
+        },
+        {
+          "id": 23,
+          "icon": " fas fa-edit",
+          "subTitle": "exhaustAll",
+          "routerLink": "rxjs/exhaustAll"
+        },
+        {
+          "id": 24,
+          "icon": " fas fa-edit",
+          "subTitle": "exhaustMap",
+          "routerLink": "rxjs/exhaustMap"
+        },
+
+        {
+          "id": 26,
+          "icon": " fas fa-edit",
+          "subTitle": "filter",
+          "routerLink": "rxjs/filter"
+        }
+
+
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Functions & Operators",
+      "translatetitle": "sidebar.menu.functions",
+      "expanded": true,
+      "subMenu": [
+        {
+          "id": 0,
+          "icon": " fas fa-edit",
+          "subTitle": "firstValueFrom",
+          "routerLink": "rxjs/firstValueFrom"
+        },
+        {
+          "id": 1,
+          "icon": " fas fa-edit",
+          "subTitle": "filter",
+          "routerLink": "rxjs/filter"
+        },
+        {
+          "id": 2,
+          "icon": " fas fa-edit",
+          "subTitle": "find",
+          "routerLink": "rxjs/find"
+        },
+        {
+          "id": 3,
+          "icon": " fas fa-edit",
+          "subTitle": "findIndex",
+          "routerLink": "rxjs/findIndex"
+        },
+        {
+          "id": 4,
+          "icon": " fas fa-edit",
+          "subTitle": "first",
+          "routerLink": "rxjs/first"
+        },
+        {
+          "id": 5,
+          "icon": " fas fa-edit",
+          "subTitle": "forkJoin",
+          "routerLink": "rxjs/forkJoin"
+        },
+        {
+          "id": 6,
+          "icon": " fas fa-edit",
+          "subTitle": "from",
+          "routerLink": "rxjs/from"
+        },
+        {
+          "id": 7,
+          "icon": " fas fa-edit",
+          "subTitle": "fromEvent",
+          "routerLink": "rxjs/fromEvent"
+        },
+        {
+          "id": 8,
+          "icon": " fas fa-edit",
+          "subTitle": "groupBy",
+          "routerLink": "rxjs/groupBy"
+        },
+        {
+          "id": 9,
+          "icon": " fas fa-edit",
+          "subTitle": "last",
+          "routerLink": "rxjs/last"
+        },
+        {
+          "id": 10,
+          "icon": " fas fa-edit",
+          "subTitle": "lastValueFrom",
+          "routerLink": "rxjs/lastValueFrom"
+        },
+        {
+          "id": 11,
+          "icon": " fas fa-edit",
+          "subTitle": "map",
+          "routerLink": "rxjs/map"
+        },
+        {
+          "id": 12,
+          "icon": " fas fa-edit",
+          "subTitle": "merge",
+          "routerLink": "rxjs/merge"
+        },
+        {
+          "id": 13,
+          "icon": " fas fa-edit",
+          "subTitle": "mergeAll",
+          "routerLink": "rxjs/mergeAll"
+        },
+        {
+          "id": 14,
+          "icon": " fas fa-edit",
+          "subTitle": "mergeMap",
+          "routerLink": "rxjs/mergeMap"
+        },
+        {
+          "id": 15,
+          "icon": " fas fa-edit",
+          "subTitle": "min",
+          "routerLink": "rxjs/min"
+        },
+        {
+          "id": 17,
+          "icon": " fas fa-edit",
+          "subTitle": "of",
+          "routerLink": "rxjs/of"
+        },
+
+        {
+          "id": 20,
+          "icon": " fas fa-edit",
+          "subTitle": "pipe",
+          "routerLink": "rxjs/pipe"
+        },
+        {
+          "id": 21,
+          "icon": " fas fa-edit",
+          "subTitle": "race",
+          "routerLink": "rxjs/race"
+        },
+        {
+          "id": 22,
+          "icon": " fas fa-edit",
+          "subTitle": "range",
+          "routerLink": "rxjs/range"
+        },
+        {
+          "id": 23,
+          "icon": " fas fa-edit",
+          "subTitle": "reduce",
+          "routerLink": "rxjs/reduce"
+        },
+        {
+          "id": 24,
+          "icon": " fas fa-edit",
+          "subTitle": "retry",
+          "routerLink": "rxjs/retry"
+        },
+        {
+          "id": 26,
+          "icon": " fas fa-edit",
+          "subTitle": "sample",
+          "routerLink": "rxjs/sample"
+        },
+        {
+          "id": 27,
+          "icon": " fas fa-edit",
+          "subTitle": "skip",
+          "routerLink": "rxjs/skip"
+        },
+        {
+          "id": 28,
+          "icon": " fas fa-edit",
+          "subTitle": "skipLast",
+          "routerLink": "rxjs/skipLast"
+        },
+        {
+          "id": 29,
+          "icon": " fas fa-edit",
+          "subTitle": "skipUntil",
+          "routerLink": "rxjs/skipUntil"
+        },
+        {
+          "id": 30,
+          "icon": " fas fa-edit",
+          "subTitle": "skipWhile",
+          "routerLink": "rxjs/skipWhile"
+        },
+
+        {
+          "id": 31,
+          "icon": " fas fa-edit",
+          "subTitle": "switchAll",
+          "routerLink": "rxjs/switchAll"
+        },
+        {
+          "id": 32,
+          "icon": " fas fa-edit",
+          "subTitle": "switchMap",
+          "routerLink": "rxjs/switchMap"
+        },
+        {
+          "id": 33,
+          "icon": " fas fa-edit",
+          "subTitle": "take",
+          "routerLink": "rxjs/take"
+        },
+        {
+          "id": 34,
+          "icon": " fas fa-edit",
+          "subTitle": "timeout",
+          "routerLink": "rxjs/timeout"
+        }
+
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Clases",
+      "translatetitle": "sidebar.menu.functions",
+      "expanded": true,
+      "subMenu": [
+        {
+          "id": 0,
+          "icon": " fas fa-edit",
+          "subTitle": "BehaviorSubject",
+          "routerLink": "rxjs/BehaviorSubject"
+        },
+        {
+          "id": 1,
+          "icon": " fas fa-edit",
+          "subTitle": "observable",
+          "routerLink": "rxjs/observable"
+        },
+        {
+          "id": 2,
+          "icon": " fas fa-edit",
+          "subTitle": "replaySubject",
+          "routerLink": "rxjs/replaySubject"
+        },
+        {
+          "id": 3,
+          "icon": " fas fa-edit",
+          "subTitle": "subject",
+          "routerLink": "rxjs/subject"
+        },
+        {
+          "id": 4,
+          "icon": " fas fa-edit",
+          "subTitle": "subscription",
+          "routerLink": "rxjs/subscription"
+        }
+      ]
+    }
+    ],
+  "flags": [
+    {
+      "name": "España",
+      "flag": "assets/imagenes/flags/es.png",
+      "code": "es_ES"
+    },
+    {
+      "name": "Alemania",
+      "flag": "assets/imagenes/flags/de.png",
+      "code": "de_DE"
+    },
+    {
+      "name": "Portugal",
+      "flag": "assets/imagenes/flags/pt.png",
+      "code": "pt_PT"
+    },
+    {
+      "name": "Italia",
+      "flag": "assets/imagenes/flags/it.png",
+      "code": "it_IT"
+    },
+    {
+      "name": "UK",
+      "flag": "assets/imagenes/flags/en.png",
+      "code": "en_EN"
+    },
+    {
+      "name": "Francia",
+      "flag": "assets/imagenes/flags/fr.png",
+      "code": "fr_FR"
+    }
+  ]
+
+
+}
+
